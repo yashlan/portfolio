@@ -1,3 +1,5 @@
+
+
 /*------------- 
 [Table of contents]
 
@@ -276,8 +278,8 @@ a {
   padding: 20px 0; }
   
   section {
-    //padding: 60px 0;
-    //padding-bottom: 30px;
+    padding: 60px 0;
+    padding-bottom: 30px;
 }
 
 /**
@@ -524,13 +526,11 @@ ul {
 .img-overlay {
   background-image: url(../images/footer-bg.png);
   background-size: cover;
-  background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center center; }
 
 .image-bg {
-  background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -722,7 +722,11 @@ button {
 .dark-vertion {
   opacity: 0.9; }
   .dark-vertion.black-bg {
-    background-color: #100e17; }
+	  
+    background-color: #100e17; 
+	  background-repeat: repeat-x;
+	  background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
   .dark-vertion .section-loader {
     background: #100e17; }
   .dark-vertion ::placeholder {
@@ -1565,7 +1569,6 @@ body {
     float: none;
     margin: 0 auto;
     border: 5px solid #0bceaf;
-    margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 50%; }
   .mh-testimonial .mh-client-item p {
