@@ -724,7 +724,7 @@ button {
   .dark-vertion.black-bg {
 	  
     background-color: #100e17; 
-	  background-repeat: repeat-x;
+	  background-repeat: repeat;
 	  background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
   .dark-vertion .section-loader {
